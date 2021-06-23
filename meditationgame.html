@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>  
+    
+    
+
+    <audio id="audio"  >
+        <source src="./img/modular-ambient-04-792.mp3">
+     </audio>
+     <audio id="audio" src="./img/modular-ambient-04-792.mp3"></audio>
+       <section class="meditation">   
+           <div class="wrapper">
+            <div class="container"> 
+                <div class="meditation__title">
+                    <h1>Meditation App</h1>
+                </div> 
+                <div class="meditation__select">
+                    <h2>Choose a type of meditation</h2>
+                </div> 
+                <div class="meditation__flex__container"> 
+                    <input data-type="mindfulness" class="btn btn-styled"type="button" value="MINDFULNESS MEDITATION" required>
+                    <input data-type="kindness" class="btn btn-styled"type="button" value="LOVING KINDNESS MEDITATION" required>
+                </div>    
+            </div>    
+        
+            `
+            
+
+            
+            
+            
+              <div class="instructions">
+                  <h1 id="instruct"></h1> 
+                  <p id="main-instructions"> 
+                    
+                  </p>
+              </div>    
+             
+                    <div class="meditation__flex__container__time"> 
+                        <p class="meditation__time__title">Choose a time of meditation</p>
+                        <input data-time = "5 min"  class="btn btn time"type="button" value="5 MIN" required>
+                        <input data-time="10 min" class="btn btn time"type="button" value="10 MIN" required>
+                        <input data-time="15 min"  class="btn btn time"type="button" value="15 MIN" required>
+                        <input data-time="20 min"  class="btn btn time"type="button" value="20 MIN" required>
+                    </div>  
+                    <input type="text" name="time" id="time">
+                    <div id="timer"></div>
+            </div>    
+            <p class="music-parragraf">Push button to listen music</p>
+            <div class ="music-content"> 
+                
+                <div id="app">
+                    <div class="pause">
+                        <div class="line line_1"></div>
+                        <div class="line line_2"></div>
+                    </div>
+                    <div class="play active">
+                        <div class="line line_1"></div>
+                        <div class="line line_2"></div>
+                        <div class="line line_3"></div>
+                    </div>
+            </div>   
+                </div> 
+        </div> 
+               
+         
+</body> 
+<script src="./meditation-game.js"></script>
+</html>
